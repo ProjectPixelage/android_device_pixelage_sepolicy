@@ -5,6 +5,17 @@ vendor.camera.aux.packagelist          u:object_r:vendor_persist_camera_prop:s0
 # Bluetooth
 bluetooth.hci.disabled_commands        u:object_r:bluetooth_config_prop:s0
 
+# Custom version
+ro.pixelage.build.date                 u:object_r:custom_version_prop:s0
+ro.pixelage.build.version              u:object_r:custom_version_prop:s0
+ro.pixelage.device                     u:object_r:custom_version_prop:s0
+ro.pixelage.fingerprint                u:object_r:custom_version_prop:s0
+ro.pixelage.maintainer                 u:object_r:custom_version_prop:s0
+ro.pixelage.releasetype                u:object_r:custom_version_prop:s0
+ro.pixelage.showversion                u:object_r:custom_version_prop:s0
+ro.pixelage.version                    u:object_r:custom_version_prop:s0
+ro.modversion                          u:object_r:custom_version_prop:s0
+
 # Dolby Properties
 ro.vendor.dolby.dax.version            u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
